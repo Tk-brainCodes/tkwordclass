@@ -3,9 +3,15 @@
   padding: 0;
 }
 
+@media screen and (max-width: 480px) {
+  .App {
+    overflow-y: hidden;
+    overflow-x: hidden;
+ }
+}
+
 .App {
-  width: 100vw;
-  height: 100vh;
+   overflow-y: hidden;
 }
 
 html {

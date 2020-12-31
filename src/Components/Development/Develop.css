@@ -2,15 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Bungee+Outline&family=Darker+Grotesque:wght@300&family=Fredoka+One&family=Rubik:wght@500&display=swap');
 
 .Develop__ {
-    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     height: auto !important;
     background: #2E2929;
     padding: 20px 10px 10px;
-    grid-template-columns: 400px 1fr;
+  
 }
 @media screen and (max-width: 480px) {
     .Develop__ {
-        display: grid;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
         height: auto !important;
         background: #2E2929;
         padding: 20px 10px 10px;
@@ -18,11 +23,16 @@
     }
 
     .svg__container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 200px;
         margin-bottom: 20px;
+        
+    }
+
+    .developer__container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5px;
+        width: 300px;
+        height: auto 50vh;
     }
 }
 
@@ -33,9 +43,7 @@
 }
 
 .svg__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
 }
 
 .container__dev {
@@ -46,42 +54,38 @@
     width: 100px;
     border-top: 3px solid #FFD17D;
     height: 20px;
-    padding: 10px;
     color: #FFFFFF;
 }
 
 .Developing {
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content:   space-evenly;
     font-size: 16px;
-    height: 100px;
-    width: 400px;
-    left: 798px;
+    height: 120px;
+    width: 380px;
     margin-top: 5px;
-    top: 294px;
     background: #3A3434;
     border-radius: 29px;
-    display: flex;
-    align-items: center;
-    justify-content:   space-evenly;
 }
 
 .Design__ {
+    padding: 20px;
+    justify-content:   space-evenly;
+    flex-wrap: wrap;
     font-size: 16px;
-    height: 100px;
-    width: 400px;
-    left: 798px;
+    height: 120px;
+    width: 380px;
     margin-top: 10px;
-    top: 294px;
     background: #3A3434;
     border-radius: 29px;
-    display: flex;
-    align-items: center;
-    justify-content:   space-evenly;
 }
 
 .image__ {
-    width: 70px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+    padding: 3px;
     background-color: #E26C6C;
     text-align: center;
     display: flex;
