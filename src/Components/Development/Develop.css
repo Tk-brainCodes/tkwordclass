@@ -4,13 +4,7 @@
 .Develop__ {
     display: grid;
     height: auto !important;
-    left: 0px;
-    top: 970px;
     background: #2E2929;
-    grid-template-areas: 
-    "svg__container" "svg__container" "svg__container"
-    "develop__container" "develop__container" "develop__container"
-    ;
     padding: 20px 10px 10px;
     grid-template-columns: 400px 1fr;
 }
@@ -18,13 +12,7 @@
     .Develop__ {
         display: grid;
         height: auto !important;
-        left: 0px;
-        top: 970px;
         background: #2E2929;
-        grid-template-areas: 
-        "svg__container" "svg__container" "svg__container"
-        "develop__container" "develop__container" "develop__container"
-        ;
         padding: 20px 10px 10px;
         grid-template-columns: 1fr;
     }
