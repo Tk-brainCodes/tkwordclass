@@ -1,62 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Darker+Grotesque:wght@300&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@700&family=Russo+One&display=swap');
 
 .Herosection__ {
     height: auto !important;
     background: #322C2C;
-    display: grid;
-    grid-template-areas: 
-    "introduction introduction introduction"
-    "image" "image" "image"
-    ;
-    padding: 20px 10px 10px;
-    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media screen and (max-width: 480px) {
-    .Herosection__ {
-        height: auto !important;
-        background: #322C2C;
-        display: grid;
-        grid-template-rows: 25% 100px auto;
-
-    }
-
-    .introduction__{
-        display: grid;
-        width: 100vw;
-        height: 350px;
-    }
-
-    .image {
-        display: grid;
-        width: 45vw;
-        height: 90vh;
-        background-image: url(thankgod.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-}
-
+       
 .introduction__{
-    height: 350px;
+    height: auto !important;
+    display: grid;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
 }
 
 .image {
-    display: grid;
-    width: 45vw;
-    height: 90vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 400px;;
     background: url(thankgod.png);
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 124px;
+    margin-bottom: 10px;
 }
 
 .contentIntro__ {
-    margin-top: 130px;
     padding: 2px;
     color: #E26C6C;
     margin-left: 30px;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 
@@ -64,7 +46,7 @@
 .remark__ {
     padding: 2px;
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 30px;
     color: white;
 }
@@ -72,7 +54,7 @@
 .developer__ {
     padding: 2px;
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 2px;
     font-size: 30px;
     color: white;
 }
@@ -89,4 +71,11 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     cursor: pointer;
+    font-size: 12px;
+}
+
+.react {
+    color: #FFD17D;
+    font-family: 'Allan', cursive;
+    letter-spacing: 0.2em;
 }

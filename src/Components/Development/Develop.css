@@ -28,7 +28,17 @@
         padding: 20px 10px 10px;
         grid-template-columns: 1fr;
     }
+
+    .svg__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 200px;
+        margin-bottom: 20px;
+    }
 }
+
+
 .developer__container {
     width: 600px;
     height: 400px;
@@ -38,7 +48,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 500px;
 }
 
 .container__dev {
@@ -55,8 +64,8 @@
 
 .Developing {
     font-size: 16px;
-    height: 166px;
-    width: 500px;
+    height: 100px;
+    width: 400px;
     left: 798px;
     margin-top: 5px;
     top: 294px;
@@ -69,8 +78,8 @@
 
 .Design__ {
     font-size: 16px;
-    height: 166px;
-    width: 500px;
+    height: 100px;
+    width: 400px;
     left: 798px;
     margin-top: 10px;
     top: 294px;
@@ -95,6 +104,6 @@
 }
 
 .text__ {
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Fredoka One', cursive;
 }
