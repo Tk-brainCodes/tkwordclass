@@ -9,6 +9,21 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 480px) {
+    .image {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 200px;;
+        background: url(thankgod.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 124px;
+        margin-bottom: 10px;
+    }
+    
+}
        
 .introduction__{
     height: auto !important;
@@ -18,14 +33,18 @@
     width: 100vw;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(laptop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .image {
     display:flex;
     align-items: center;
     justify-content: center;
-    width: 500px;
-    height: 400px;;
+    width: 350px;
+    height: 300px;;
     background: url(thankgod.png);
     background-size: cover;
     background-repeat: no-repeat;
