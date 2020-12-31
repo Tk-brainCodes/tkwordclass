@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Darker+Grotesque:wght@300&display=swap');
+
+.Nabvar__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2px 5px;
+    height: 50px;
+    background: #3A3434;
+
+}
+
+@media screen and (max-width: 480px) {
+    .Nabvar__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 2px 5px;
+        height: 50px;
+        background: #3A3434;
+    
+    }
+
+    ul {
+        text-align: center;
+        display: none;   
+    } 
+}
+
+.text {
+    font-family: 'Bungee Outline', cursive;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 2px;
+    color: white;
+    float: right;
+}
+
+.nav__links {
+    width: 300px;
+}
+
+ul {
+    text-align: center;
+    
+}
+
+#active {
+    color: #94CA6A;
+    border-bottom: 2px solid #94CA6A;
+}
+
+.hamburger__menu {
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.logo__ {
+    width: 55px;
+    height: 32px;
+    left: 63px;
+    top: 57px;
+    background:none;
+    border: 3px solid  #94CA6A;
+    border-radius: 22.5px;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+li {
+    display: inline-flex;
+    padding: 10px;
+    list-style-type: none;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: white;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon {
+    width: 50px;
+    height: 2px;
+    left: 1297px;
+    margin-top: 6px;
+    margin-right: 10px;
+    top: 64px;
+    background: #FDFDFD;
+    border-radius: 2.5px;
+}

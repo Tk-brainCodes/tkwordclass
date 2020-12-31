@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Bungee+Outline&family=Darker+Grotesque:wght@300&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Bungee+Outline&family=Darker+Grotesque:wght@300&family=Fredoka+One&family=Rubik:wght@500&display=swap');
+
+.Develop__ {
+    display: grid;
+    height: auto !important;
+    left: 0px;
+    top: 970px;
+    background: #2E2929;
+    grid-template-areas: 
+    "svg__container" "svg__container" "svg__container"
+    "develop__container" "develop__container" "develop__container"
+    ;
+    padding: 20px 10px 10px;
+    grid-template-columns: 400px 1fr;
+}
+@media screen and (max-width: 480px) {
+    .Develop__ {
+        display: grid;
+        height: auto !important;
+        left: 0px;
+        top: 970px;
+        background: #2E2929;
+        grid-template-areas: 
+        "svg__container" "svg__container" "svg__container"
+        "develop__container" "develop__container" "develop__container"
+        ;
+        padding: 20px 10px 10px;
+        grid-template-columns: 1fr;
+    }
+}
+.developer__container {
+    width: 600px;
+    height: 400px;
+}
+
+.svg__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.container__dev {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    width: 100px;
+    border-top: 3px solid #FFD17D;
+    height: 20px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.Developing {
+    font-size: 16px;
+    height: 166px;
+    width: 500px;
+    left: 798px;
+    margin-top: 5px;
+    top: 294px;
+    background: #3A3434;
+    border-radius: 29px;
+    display: flex;
+    align-items: center;
+    justify-content:   space-evenly;
+}
+
+.Design__ {
+    font-size: 16px;
+    height: 166px;
+    width: 500px;
+    left: 798px;
+    margin-top: 10px;
+    top: 294px;
+    background: #3A3434;
+    border-radius: 29px;
+    display: flex;
+    align-items: center;
+    justify-content:   space-evenly;
+}
+
+.image__ {
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #E26C6C;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.text__ {
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Darker+Grotesque:wght@300&family=Rubik:wght@500&display=swap');
+
+.Herosection__ {
+    height: auto !important;
+    background: #322C2C;
+    display: grid;
+    grid-template-areas: 
+    "introduction introduction introduction"
+    "image" "image" "image"
+    ;
+    padding: 20px 10px 10px;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    
+}
+
+@media screen and (max-width: 480px) {
+    .Herosection__ {
+        height: auto !important;
+        background: #322C2C;
+        display: grid;
+        grid-template-rows: 25% 100px auto;
+
+    }
+
+    .introduction__{
+        display: grid;
+        width: 100vw;
+        height: 350px;
+    }
+
+    .image {
+        display: grid;
+        width: 45vw;
+        height: 90vh;
+        background-image: url(thankgod.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+}
+
+.introduction__{
+    height: 350px;
+}
+
+.image {
+    display: grid;
+    width: 45vw;
+    height: 90vh;
+    background: url(thankgod.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contentIntro__ {
+    margin-top: 130px;
+    padding: 2px;
+    color: #E26C6C;
+    margin-left: 30px;
+}
+
+
+
+.remark__ {
+    padding: 2px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.developer__ {
+    padding: 2px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+}
+.btn__{
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 2px;
+    width: 150px;
+    height: 40px;
+    left: 68px;
+    top: 620px;
+    border: 1px solid #94CA6A;
+    background: #94CA6A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+}
